@@ -1,50 +1,103 @@
-# WhatsApp Baileys
+WhatsApp Baileys
 
-WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
+WhatsApp Baileys is an open-source Node.js library that enables developers to build efficient and reliable WhatsApp automation solutions without relying on a browser. Leveraging WebSocket technology, Baileys offers rich features such as message handling, group management, session handling, interactive messages, and action buttons—all designed to deliver a seamless and stable experience.
 
-Actively developed and maintained, baileys continuously receives updates to enhance stability and performance. One of the main focuses is to improve the pairing and authentication processes to be more stable and secure. Pairing features can be customized with your own codes, making the process more reliable and less prone to interruptions.
+Built for developers.
+Powered by lightweight design.
+Focused on secure, reliable pairing.
 
-This library is highly suitable for building business bots, chat automation systems, customer service solutions, and various other communication automation applications that require high stability and comprehensive features. With a lightweight and modular design, baileys is easy to integrate into different systems and platforms.
-
----
-
-### Main Features and Advantages
-
-- Supports automatic and custom pairing processes
-- Fixes previous pairing issues that often caused failures or disconnections
-- Supports interactive messages, action buttons, and dynamic menus
-- Efficient automatic session management for reliable operation
-- Compatible with the latest multi-device features from WhatsApp
-- Lightweight, stable, and easy to integrate into various systems
-- Suitable for developing bots, automation, and complete communication solutions
-- Comprehensive documentation and example codes to facilitate development
 
 ---
 
-### Getting Started
+Key Features
 
-Begin by installing the library via your preferred package manager, then follow the provided configuration guide. You can also utilize the ready-made example codes to understand how the features work. Use session storage and interactive messaging features to build complete, stable solutions tailored to your business or project needs.
+Automatic and custom pairing support
 
----
+Interactive messaging: action buttons, lists, and dynamic menus
 
-### Why Choose whatsapp baileys?
+Efficient and automatic session management
 
-Because this library offers high stability, full features, and an actively improved pairing process. It is ideal for developers aiming to create professional and secure WhatsApp automation solutions. Support for the latest WhatsApp features ensures compatibility with platform updates.
+Compatible with WhatsApp's latest multi-device features
 
----
+Lightweight, modular, and easy to integrate
 
-## Technical Notes
+Suitable for bots, automation tools, and communication platforms
 
-- Supports custom pairing codes that are stable and secure
-- Fixes previous issues related to pairing and authentication
-- Features interactive messages and action buttons for dynamic menu creation
-- Automatic and efficient session management for long-term stability
-- Compatible with the latest multi-device features from WhatsApp
-- Easy to integrate and customize based on your needs
-- Perfect for developing bots, customer service automation, and other communication applications
+Comprehensive documentation and practical examples
+
+
 
 ---
 
-For complete documentation, installation guides, and implementation examples, please visit the official repository and community forums. We continually update and improve this library to meet the needs of developers and users of modern WhatsApp automation solutions.
+Getting Started
 
-Thank you for choosing WhatsApp Baileys as your WhatsApp automation solution!
+1. Install the library via your preferred package manager:
+
+npm install @whiskeysockets/baileys
+
+
+2. Set up pairing and session:
+
+Use the provided examples to implement custom or automatic pairing and manage sessions reliably.
+
+
+3. Start building:
+
+Use Baileys to send and receive messages, handle groups, manage events, and more.
+
+
+
+Refer to the documentation folder or Wiki for in-depth guides and examples.
+
+
+---
+
+Why Choose WhatsApp Baileys?
+
+Actively maintained with continuous improvements
+
+Focus on long-term operational stability
+
+Open-source and community-supported
+
+No browser emulation required
+
+Modular and flexible architecture
+
+
+
+---
+
+Technical Highlights
+
+Stable and secure custom pairing code support
+
+Improved handling of authentication and session persistence
+
+Interactive messaging components: buttons, lists, menus
+
+Fully automated session lifecycle management
+
+Supports WhatsApp multi-device protocol
+
+Easily customizable and integrable with other systems
+
+
+
+---
+
+Documentation and Support
+
+Visit the official repository and community discussion boards for:
+
+Setup and installation guides
+
+Feature examples and template implementations
+
+Best practices and troubleshooting
+
+
+
+---
+
+Thank you for choosing WhatsApp Baileys as your WhatsApp automation solution.
